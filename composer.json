@@ -1,0 +1,14 @@
+{
+  "name": "drupal/spotify_drupal",
+  "type": "drupal-module",
+  "description": "Spotify Drupal",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://github.com/jeffersonpatron/spotify_drupal",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://github.com/jeffersonpatron/spotify_drupal/issues",
+    "source": "https://github.com/jeffersonpatron/spotify_drupal"
+  },
+  "require": { }
+}

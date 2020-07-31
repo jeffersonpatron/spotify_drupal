@@ -1,0 +1,42 @@
+<?php
+
+/**
+ * @file
+ * Contains spotify_drupal.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function spotify_drupal_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the spotify_drupal module.
+    case 'help.page.spotify_drupal':
+      $output = '';
+      $output .= '<h3>' . t('About Spotify Test') . '</h3>';
+      $output .= '<p>' . t('Spotify Test was created by Jefferson Patrón, to connect Spotify to Drupal V8.x.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function spotify_drupal_theme()
+{
+    return [
+        'new_releases_page' => [
+            'variables' => ['releases' => NULL],
+            'template' => 'new_releases_page'
+        ],
+        'artist_page' => [
+            'variables' => ['artist' => NULL,
+                            'tracks' => NULL],
+            'template' => 'artist_page'
+        ]
+    ];
+}

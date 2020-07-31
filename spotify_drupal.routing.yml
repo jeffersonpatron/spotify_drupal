@@ -1,0 +1,15 @@
+spotify_drupal.new_releases:
+  path: '/lanzamientos'
+  defaults:
+    _controller: '\Drupal\spotify_drupal\Controller\SpotifyDrupalController::newReleases'
+    _title: 'Lanzamientos'
+  requirements:
+    _permission: 'access content'
+
+spotify_drupal.artist:
+  path: '/artista/{id}'
+  defaults:
+    _controller: '\Drupal\spotify_drupal\Controller\SpotifyDrupalController::artist'
+    _title: 'Artista'
+  requirements:
+    _permission: 'access content'

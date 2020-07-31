@@ -1,0 +1,6 @@
+spotify_drupal.new_releases:
+  title: Lanzamientos
+  description: 'Últimos Lanzamientos'
+  route_name: spotify_drupal.new_releases
+  menu_name: main
+  weight: 1
