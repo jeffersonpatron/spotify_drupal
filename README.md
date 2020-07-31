@@ -13,7 +13,9 @@ To install:
 Based on:
 
 https://github.com/ricardojriosr/spotifyDrupal
+
 https://github.com/aterchin/lilbacon-spotify-drupal8
+
 https://github.com/diegodalr/spotify_web_api
 
 Structure:
