@@ -23,15 +23,25 @@ Structure:
 - spotify_drupal
 
 -- src
+
 --- controller
+
 ---- SpotifyClientController.php
 
+
 -- templates
+
 --- artist_page.html.twig
+
 --- new_releases_page.html.twig
 
+
 -- composer.json
+
 -- spotify_client.info.yml
+
 -- spotify_client.links.menu.yml
+
 -- spotify_client.module
+
 -- spotify_client.routing.yml
