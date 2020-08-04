@@ -94,7 +94,7 @@ class SpotifyDrupalController extends ControllerBase
         try {
             $requestTracks = $this->client->request('GET', 'https://api.spotify.com/v1/artists/' . $id . '/top-tracks?country=CO', [
                 'headers' => [
-                    'Authorization' => $auth->token_type . ' ' . $auth->access_token
+                    'Authorization: Bearer ' => $auth->token_type . ' ' . $auth->access_token
                 ]
             ]);
 
