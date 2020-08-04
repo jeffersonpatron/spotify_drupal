@@ -51,7 +51,7 @@ class SpotifyDrupalController extends ControllerBase
         $auth = $this->autorization();
 
         try {
-            $request = $this->client->request('GET', 'https://api.spotify.com/v1/browse/new_releases', [
+            $request = $this->client->request('GET', 'https://api.spotify.com/v1/browse/new-releases', [
                 'headers' => [
                     'Authorization' => $auth->token_type . ' ' . $auth->access_token
                 ]
